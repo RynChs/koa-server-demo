@@ -1,0 +1,16 @@
+{
+  "name": "koa-server-demo",
+  "version": "1.0.0",
+  "description": "react + koa + mysql",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd web && npm install && cd ../server && npm install",
+    "dev": "cd web && npm run dev",
+    "server": "cd server && npm run server"
+  },
+  "author": "RynCh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
