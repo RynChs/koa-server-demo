@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "node ./src/app.js"
+    "server": "nodemon --config ./nodemon.json ./src/app.js"
   },
   "author": "RynCh",
   "license": "ISC",
@@ -12,5 +12,8 @@
     "koa": "^2.12.0",
     "koa-router": "^9.0.1",
     "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
