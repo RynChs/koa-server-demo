@@ -9,8 +9,5 @@
     "server": "cd server && npm run server"
   },
   "author": "RynCh",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.19.2"
-  }
+  "license": "ISC"
 }
